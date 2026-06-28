@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   try {
     await resend.emails.send({
       from: 'Albion Greens <onboarding@resend.dev>',
-      to: ['albiongreens@gmail.com'],
+      to: ['nthnkrishna95@gmail.com'],
       subject: `Trade Enquiry: ${businessName} (${businessType})`,
       html: `<div style="font-family:sans-serif;max-width:600px;margin:0 auto;color:#1A1A1A;">
         <div style="background:#1E4D35;padding:24px 32px;"><h1 style="color:#F5F2EA;font-size:24px;margin:0;font-weight:300;">New Trade Enquiry</h1></div>
